@@ -96,10 +96,46 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: #444;
+    text-align: center;
+}
 
 
+#llama-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+.facts {
+    flex-basis: 45%;
+    background-color: lightblue;
+    color: #444;
+    padding: 1em;
+    font-size: .75em;
+    margin: 1em 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+#llama-drama {
+    background-color: #444;
+    color: lightblue;
+    padding: .5em;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#llama-chase {
+    max-width: 100%;
+}
 
 
 

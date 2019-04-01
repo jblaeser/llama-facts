@@ -20,12 +20,43 @@
 
     <!-- Add your site or application content here -->
 
-
-
-
-
-
-
+      <h1>Llama Drama!</h1>
+      <div id="llama-div">
+        <div class="facts">
+          <h2>{{factOne}}</h2>
+        </div>
+        <div class="facts">
+          <h2>{{factTwo}}</h2>
+        </div>
+        <div class="facts">
+          <h2>{{factThree}}</h2>
+        </div>
+        <div class="facts">
+          <h2>{{factFour}}</h2>
+        </div>
+        <div class="facts">
+          <h2>{{factFive}}</h2>
+        </div>
+        <div class="facts">
+          <h2>{{factSix}}</h2>
+        </div>
+        <div class="facts">
+          <h2>{{factSeven}}</h2>
+        </div>
+        <div class="facts">
+          <h2>{{factEight}}</h2>
+        </div>
+        <div class="facts">
+          <h2>{{factNine}}</h2>
+        </div>
+        <div class="facts" v-if="clicked===true">
+          <h2>{{factTen}}</h2>
+          <h3 id="llama-drama" v-on:click="clicked = !clicked">Click here for real llama drama footage!</h3>
+        </div>
+        <div class="facts" v-else>
+          <img id="llama-chase" src="img/llamachase.gif" alt="A thrilling llama chase" v-on:click="clicked = !clicked">
+        </div>
+      </div>
 
 
 

@@ -13,6 +13,6 @@ new Vue({
         factEight: "Like Labradors and miniature horses, there's something soothing about llamas. They can be trained as professional comforters, working as therapy animals in hospital, schools and nursing homes.",
         factNine: "The Oregon State University College of Veterinary Medicine is using their herd of 30 llamas and alpacas to study how certain hormones affect blood sugar. Because the metabolism of llamas is very similar to that of a human diabetic, the results of this research may provide insight into human diabetes treatment.",
         factTen: "In 2015, two llamas escaped from a petting zoo in Sun City Arizona and led authorities on a sometimes high-speed, sometimes meandering chase.",
-        chaseGif: "img/llamachase.gif",
+        clicked: true,
     } 
 })
