@@ -96,13 +96,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
+html {
+    background-image: url(../img/bg.jpg);
+}
+
+   body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
-    color: #444;
+    color: #f39a8c;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    font-size: 3em;
 }
 
 
@@ -114,8 +121,8 @@ h1 {
 
 .facts {
     flex-basis: 45%;
-    background-color: lightblue;
-    color: #444;
+    background-color: #75989e;
+    color: #fbd69e;
     padding: 1em;
     font-size: .75em;
     margin: 1em 0;
@@ -126,8 +133,8 @@ h1 {
 }
 
 #llama-drama {
-    background-color: #444;
-    color: lightblue;
+    background-color: #fbd69e;
+    color: #75989e;
     padding: .5em;
     margin: 0 auto;
     cursor: pointer;
